@@ -18,9 +18,9 @@ for el in content:
     salary.append(float(el[el.find(' ') + 1:el.find('\n')]))
 print(salary)
 print(surname)
-sum = 0
+my_sum = 0
 for i in range(len(salary)):
-    sum += salary[i]
+    my_sum += salary[i]
     if salary[i] < 20000:
         print(f'{surname[i]} зарабатывает {salary[i]}')
-print(f'average={sum / len(salary)}')
+print(f'average={my_sum / len(salary)}')

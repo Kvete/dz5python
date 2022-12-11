@@ -7,7 +7,7 @@ my_sum = 0
 my_f = open('file5.txt', 'w', encoding='utf-8')
 elements = [5, 3, 7, 9, 1, 2, 13]
 for el in elements:
-    my_f.write(str(el) + ' ')
+    my_f.write(str(el)+' ')
 my_f.close()
 my_f2 = open('file5.txt', 'r', encoding='utf-8')
 content = my_f2.readlines()

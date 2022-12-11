@@ -4,9 +4,9 @@
 """
 my_f = open('file1.txt', 'w', encoding='utf8')
 while True:
-    str = input('give me str')
-    if str != '':
-        my_f.write(str + "\n")
+    input_str = input('give me str ')
+    if input_str != '':
+        my_f.write(input_str + "\n")
     else:
         break
 my_f.close()
